@@ -1,0 +1,17 @@
+{
+  "name": "gui",
+  "version": "0.0.0",
+  "author": "Mintblocks",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mintblocks/gui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mintblocks/gui/issues"
+  },
+  "homepage": "https://mb.jimhasaburger.com/",
+  "dependencies": {
+  }
+}
