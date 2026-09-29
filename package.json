@@ -3,15 +3,29 @@
   "version": "0.0.0",
   "author": "Mintblocks",
   "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mintblocks/gui.git"
+    "url": "git+https://github.com/mintblocks/gui.git"
   },
   "bugs": {
     "url": "https://github.com/mintblocks/gui/issues"
   },
   "homepage": "https://mb.jimhasaburger.com/",
+  "description": "Editor for mintblocks\r Mintblocks was originally meant to be a scratch mod, \r but is now \"Scratch but uses lua\"",
+  "main": "index.js",
+  "keywords": [],
+  "license": "MIT",
+  "type": "commonjs",
   "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
+    "vite": "^8.3.1"
   }
 }
